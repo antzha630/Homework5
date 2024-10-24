@@ -11,3 +11,6 @@ My first graph is a histogram of the total three pointers made by players across
 The second graph is a dot plot that shows the relationship between minutes played and total rebounds. One random player was selected and her point is highlighted red, has her name on it, and has a unique design. 
 
 It is important to note that you don't need rvest, dyplr, or ggplot packages due to me not using it. I manually scraped it instead of using R code to scrape. Download the csv file with all the data and the Homework5.R file. Run it and you should get the results that I have posted in my two images. 
+
+Here is the google sheets of the WNBA data in case you prefer looking at that over a csv file. 
+https://docs.google.com/spreadsheets/d/1BJaEmUbh2EvTak2Kut-nIl2YKyAgC2BAFloyxR9xh80/edit?usp=sharing
