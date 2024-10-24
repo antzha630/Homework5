@@ -17,4 +17,5 @@ plot(WNBA$MP,WNBA$TRB,main='Minutes Played Versus Total Rebounds',xlab='Minutes 
 random_player <- WNBA[sample(nrow(WNBA), 1), ]
 #highlight point on graph red and change pch / cex to make unique
 points(random_player$MP, random_player$TRB, col = "red", pch = 18, cex = 1.5)
-
+#label the point with name textbox
+text(random_player$MP, random_player$TRB, labels = random_player$Player, pos = 3, cex = 0.8, col = "red")
